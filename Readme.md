@@ -9,6 +9,23 @@ It is a Spring module that offers Rapid Application Development to Spring framew
 module is used to create an application based on Spring framework which requires to configure
 few Spring files.
 
+Spring is a framework, which provides bunch of classes, by using this we don't need to write boiler plate logic in our
+code, so Spring provides an abstract layer on J2ee.
+
+For Example in Simple JDBC Application programmer is responsible for
+1. Loading the driver class
+2. Creating the connection
+3. Creating statement object
+4. Handling the exceptions
+5. Creating query
+6. Executing query
+7. Closing the connection 
+
+Which is treated as boilerplate code as every programmer write the same code. So for simplicity the framework
+   takes care of boilerplate logic and the programmer has to write only business logic. So by using Spring framework
+   we can develop projects rapidly with minimum lines of code, without any bug, the development cost and time also
+   reduced.
+
 To Run Spring Application: java -jar path
 
 To Stop Spring Application: ctrl + C
